@@ -315,6 +315,135 @@ i {
   display: grid;
   /* grid-template-columns: repeat(6, 1fr); */
 }
+.car-item1 {
+  width: 575px;
+  padding: 20px 0 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+  
+.cars {
+  width: 100%;
+  background-color: #edeff0;
+  display: flex;
+}
+.cars-img1 {
+  width: 50%;
+}
+.cars-text-top {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  border-radius: 10px;
+  background-color: white;
+}
+.cars-text1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.cars-item {
+  display: flex;flex-direction: column;
+  gap: 2rem;
+}
+.cars-img1 img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+.car-item2 {
+  width: 575px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.cars-img2 {
+  background-image: url(/img/image-208.png);
+  padding: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cars-item2, .cars-bottom-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.cars-img-text {
+  padding: 20px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  font-weight: 700;
+}
+.text-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.text-right h1 {
+  font-size: 25px;
+}
+.df {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.container-cars {
+  max-width: 1125px;
+  padding: 80px 115px;
+}
+.main-cars {
+  display: flex;
+  gap: 2rem;
+}
+.btn1 {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #40b376;
+  color: white;
+  border: none;
+}
+.dff {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.div-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+}
+.div-bottom h3{
+  font-size: 23px;
+}
+.main-cardd{
+  display: flex;
+  justify-content: space-between;
+}
+.text-right {
+  width: 260px;
+}
+.bottom-tex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
 
 @media (max-width: 1000px) {
   .showcase_bottom {
