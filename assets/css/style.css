@@ -271,7 +271,9 @@ i {
   height: 40px;
   border-radius: 20px;
 }
-
+.left-box-text {
+  border-bottom: 1px solid rgb(161, 153, 153);
+}
 .play_buttons {
   display: flex;
   align-items: center;
@@ -291,6 +293,12 @@ i {
   line-height: 1.42857;
   color: #fff;
 }
+.food-tx {
+  color: #4592ff;
+}
+.showcase {
+  height: 100%;
+}
 .play p {
   font-weight: 400;
   font-size: 12px;
@@ -298,10 +306,14 @@ i {
   color: #fff;
   opacity: 0.4;
 }
+.showcase_recomended h1 {
+  padding: 20px;
+  border-bottom: 1px solid rgb(161, 153, 153);
+}
 
 .showcase_recomended {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-columns: repeat(6, 1fr); */
 }
 
 @media (max-width: 1000px) {
